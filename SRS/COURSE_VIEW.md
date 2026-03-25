@@ -1,13 +1,47 @@
 # SRS - Xem khóa học
 **Mã:** COURSE-02
 
-### 1. Mô tả
-Người dùng xem danh sách khóa học.
+---
 
-### 2. Luồng
-1. Vào trang course
-2. Hiển thị danh sách
-3. Click xem chi tiết
+## 1. Mô tả
+Hiển thị danh sách khóa học.
 
-### 3. Dữ liệu
+---
+
+## 2. Workflow
+
+| Bước | Action | System |
+|------|--------|--------|
+| 1 | Truy cập | Load list |
+| 2 | Click | Xem chi tiết |
+
+---
+
+## 3. Data
 - Danh sách khóa học
+
+---
+
+## 4. Security
+- Public hoặc login
+
+---
+
+## 5. Edge Cases
+- Không có dữ liệu
+
+---
+
+## 6. UI/UX
+- Grid layout
+- Responsive
+
+---
+
+## 7. Non-functional
+- Load < 2s
+
+---
+
+## 8. Acceptance
+- Hiển thị đúng danh sách
