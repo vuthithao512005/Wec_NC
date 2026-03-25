@@ -74,15 +74,15 @@
 
 ## 5. Trường hợp ngoại lệ & Xử lý lỗi (Edge Cases)
 
-| Trường hợp          | Xử lý                               |
-|---------------------|------ ------------------------------|
-| Email sai định dạng | Hiển thị lỗi tại field              |
-| Password < 8 ký tự  | Không cho submit                    |
-| Email không tồn tại | Thông báo chung (tránh lộ info)     |
-| Sai password        | Hiển thị "Sai thông tin đăng nhập"  |
-| Tài khoản bị khóa   | Thông báo liên hệ admin             |
-| CSRF hết hạn        | Yêu cầu load lại trang              |
-| Server lỗi          | Hiển thị lỗi hệ thống               |
+| **Trường hợp**      | **Xử lý**                          |
+|---------------------|------ -----------------------------|
+| Email sai định dạng | Hiển thị lỗi tại field             |
+| Password < 8 ký tự  | Không cho submit                   |
+| Email không tồn tại | Thông báo chung (tránh lộ info)    |
+| Sai password        | Hiển thị "Sai thông tin đăng nhập" |
+| Tài khoản bị khóa   | Thông báo liên hệ admin            |
+| CSRF hết hạn        | Yêu cầu load lại trang             |
+| Server lỗi          | Hiển thị lỗi hệ thống              |
 
 ---
 
