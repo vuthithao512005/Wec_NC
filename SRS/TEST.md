@@ -38,12 +38,5 @@ Người dùng làm bài test.
 ## 6. UI/UX
 - Hiển thị câu hỏi rõ
 
----
-
-## 7. Non-functional
-- Xử lý nhanh
-
----
-
 ## 8. Acceptance
 - Tính điểm đúng
