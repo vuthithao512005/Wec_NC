@@ -39,10 +39,5 @@ Người dùng học bài qua video.
 
 ---
 
-## 7. Non-functional
-- Streaming mượt
-
----
-
 ## 8. Acceptance
 - Video chạy OK
