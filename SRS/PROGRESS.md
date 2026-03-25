@@ -33,13 +33,5 @@ Theo dõi tiến độ học.
 
 ## 6. UI/UX
 - Progress bar
-
----
-
-## 7. Non-functional
-- Load nhanh
-
----
-
 ## 8. Acceptance
 - Hiển thị đúng %
