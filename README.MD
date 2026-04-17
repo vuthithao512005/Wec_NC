@@ -186,8 +186,6 @@ E-Learning/
 
   * Khóa paid không được học nếu chưa mua
 
----
-
 ### 🔒 Quản trị viên (Admin)
 
 * **Dashboard**
@@ -246,7 +244,7 @@ http://localhost/E-Learning/index.php?page=admin
 | 7 | SRS_ADMIN.md | Trang admin |
 | 8 | SRS_PAYMENT.md | Mua khóa học |
 
---
+---
 
 ## <a id="tien-do"></a> 📊 Bảng tiến độ
 
