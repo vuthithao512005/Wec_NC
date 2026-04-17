@@ -1,7 +1,5 @@
  WEBSITE QUẢN LÝ HỌC TẬP (E-LEARNING)
 
-1. Giới thiệu
-Dự án xây dựng hệ thống học tập trực tuyến cho phép người dùng đăng ký khóa học, học bài, làm bài kiểm tra và theo dõi tiến độ học tập.
 
 2. Danh sách tài liệu SRS
 
@@ -21,78 +19,100 @@ Dự án xây dựng hệ thống học tập trực tuyến cho phép người 
 2.5 📊 Progress
 - [SRS - Theo dõi tiến độ](./SRS/PROGRESS.md)
 
-Công nghệ sử dụng
-- HTML, CSS, JavaScript
-- PHP 
-- MySQL
 ///////////////
 
-# 🎓 Website E-Learning Thông Minh
+
+
+# 🎓 WEBSITE E-LEARNING (HỆ THỐNG HỌC TRỰC TUYẾN)
+
 
 Dự án môn học xây dựng một website học trực tuyến (E-Learning) fullstack với PHP thuần theo mô hình MVC, triển khai trên XAMPP. Hệ thống cung cấp đầy đủ chức năng cho **người học** (xem khóa học, học bài, làm quiz, theo dõi tiến độ, mua khóa học) và **quản trị viên** (quản lý khóa học, bài học, người dùng, nội dung đào tạo).
 
 Dự án tập trung vào trải nghiệm học tập hiện đại, giao diện thân thiện, phân loại khóa học miễn phí và trả phí, cùng với logic kiểm soát truy cập nội dung chặt chẽ.
 
 ---
-
 ## 👥 Thành viên
-
-* **Lớp**: D18CNPM2
-
-| STT | Họ và tên       | Mã sinh viên |
-| --- | --------------- | ------------ |
-| 1   | Nguyễn Văn Kiên | 23810310138  |
-| 2   | Đỗ Quang Hà     | 23810310132  |
-| 3   | Nguyễn Bá Nhân  | 23810310144  |
+| STT | Họ và tên | Mã sinh viên |
+|---|---|---|
+| 1 | Vũ Thị Thảo | 23810310277 |
 
 ---
-
-## 📝 Phân công công việc
-
-### 🔒 Hệ thống Quản trị (Admin) — Hà
-
-* Dashboard
-* Quản lý khóa học
-* Quản lý bài học
-* Quản lý người dùng
-
-### 👨‍🎓 Giao diện học tập (User) — Kiên
-
-* Trang chủ (Home UI)
-* Danh sách khóa học
-* Trang bài học (Lesson)
-* Quiz & Kết quả
-
-### ⚙️ Chức năng hỗ trợ — Nhân
-
-* Đăng ký / Đăng nhập
-* Theo dõi tiến độ học tập
-* Lịch sử kết quả
-* Giỏ hàng & mua khóa học (mô phỏng)
-
----
-
 ## 📋 Mục lục
 
-* [Công nghệ sử dụng](#-công-nghệ-sử-dụng)
-* [Cấu trúc thư mục](#-cấu-trúc-thư-mục)
-* [Cơ sở dữ liệu](#-cơ-sở-dữ-liệu)
-* [Chức năng nổi bật](#-chức-năng-nổi-bật)
-* [Hướng dẫn cài đặt](#-hướng-dẫn-cài-đặt)
+📋 Mục lục
+🎯 Mục tiêu hệ thống
+⚙️ Chức năng chính
+👨‍🎓 Người dùng (User)
+🔒 Quản trị viên (Admin)
+🛠 Công nghệ sử dụng
+📁 Cấu trúc thư mục
+🗄 Cơ sở dữ liệu
+⚡ Chức năng nổi bật
+🚀 Hướng dẫn cài đặt
+📄 Danh sách tài liệu SRS
+📊 Bảng tiến độ
+---
+
+## Mục tiêu hệ thống
+
+- Xây dựng nền tảng học online cơ bản
+- Áp dụng mô hình MVC vào thực tế
+- Quản lý người dùng, khóa học và nội dung học
+- Phân quyền rõ ràng giữa **Admin** và **User**
+- Triển khai logic:
+  - Khóa học miễn phí (Free)
+  - Khóa học trả phí (Paid)
+- Bảo vệ nội dung học (chỉ người đã mua mới được xem)
 
 ---
 
-## 🛠 Công nghệ sử dụng
 
-| Thành phần     | Công nghệ            | Lý do lựa chọn                                |
-| -------------- | -------------------- | --------------------------------------------- |
-| **Ngôn ngữ**   | PHP (MVC thuần)      | Hiểu rõ luồng xử lý backend, session, routing |
-| **Database**   | MySQL / MariaDB      | Dễ dùng, tích hợp sẵn XAMPP                   |
-| **Web Server** | Apache (XAMPP)       | Chạy local nhanh                              |
-| **Frontend**   | HTML, CSS, Bootstrap | Tạo UI nhanh, responsive                      |
-| **JS**         | Vanilla JS           | Nhẹ, dễ kiểm soát                             |
-| **Icon**       | FontAwesome          | UI đẹp hơn                                    |
+### Chức năng chính
 
+#### 👨‍🎓 Người dùng (User)
+
+- Đăng ký / Đăng nhập
+- Xem danh sách khóa học
+- Phân loại:
+  - 🆓 Free → học ngay
+  - 💰 Paid → phải mua
+- Học bài:
+  - Xem nội dung chi tiết
+- Làm bài Quiz
+- Xem kết quả
+- Theo dõi tiến độ học (%)
+
+---
+
+#### 🔒 Quản trị viên (Admin)
+
+- Dashboard (thống kê)
+- Quản lý khóa học (CRUD)
+- Quản lý bài học
+- Quản lý người dùng
+
+---
+
+## Công nghệ sử dụng
+
+| Thành phần | Công nghệ |
+|-----------|----------|
+| Backend | PHP thuần (MVC) |
+| Database | MariaDB (XAMPP) |
+| Frontend | HTML, CSS, Bootstrap |
+| Script | JavaScript |
+| Server | Apache |
+
+### 1.5. 🛠 Công nghệ sử dụng
+
+| Thành phần     | Công nghệ             | Lý do lựa chọn                                |
+| -------------- | --------------------- | --------------------------------------------- |
+| **Ngôn ngữ**   | PHP (MVC thuần)       | Hiểu rõ luồng xử lý backend, session, routing |
+| **Database**   | MySQL / MariaDB(XAMPP)      | Dễ dùng, tích hợp sẵn XAMPP                   |
+| **Web Server** | Apache (XAMPP)        | Chạy local nhanh                              |
+| **Frontend**   | HTML, CSS, Bootstrap  | Tạo UI nhanh, responsive                      |
+| **JS**         | Vanilla JS            | Nhẹ, dễ kiểm soát                             |
+| **Icon**       | FontAwesome           | UI đẹp hơn                                    |
 ---
 
 ## 📁 Cấu trúc thư mục
@@ -142,7 +162,6 @@ E-Learning/
 ```
 
 ---
-
 ## 🗄 Cơ sở dữ liệu
 
 **Database**: `elearning`
@@ -197,23 +216,23 @@ E-Learning/
 
 ## 🚀 Hướng dẫn cài đặt
 
-1. Copy project vào:
+B1. Copy project vào:
 
 ```
 C:\xampp\htdocs\E-Learning
 ```
 
-2. Mở XAMPP:
+B2. Mở XAMPP:
 
 * Start Apache
 * Start MySQL
 
-3. Import database:
+B3. Import database:
 
 * Vào phpMyAdmin
 * Import file `.sql`
 
-4. Chạy project:
+B4. Chạy project:
 
 * Trang user:
 
@@ -229,20 +248,45 @@ http://localhost/E-Learning/index.php?page=admin
 
 ---
 
-## 💡 Ghi chú
+## 📄 DANH SÁCH TÀI LIỆU SRS
 
-* Dự án áp dụng mô hình **MVC cơ bản**
-* Có phân quyền:
+| STT | Tên tài liệu | Nội dung |
+|-----|------------|---------|
+| 1 | SRS_AUTH.md | Đăng ký, đăng nhập |
+| 2 | SRS_COURSE.md | Quản lý khóa học |
+| 3 | SRS_LESSON.md | Quản lý bài học |
+| 4 | SRS_QUIZ.md | Hệ thống quiz |
+| 5 | SRS_RESULT.md | Kết quả bài làm |
+| 6 | SRS_PROGRESS.md | Tiến độ học |
+| 7 | SRS_ADMIN.md | Trang admin |
+| 8 | SRS_PAYMENT.md | Mua khóa học |
 
-  * Admin
-  * User
-* Có thể mở rộng:
+--
 
-  * Thanh toán online (VNPAY)
-  * Giỏ hàng
-  * Video learning
+## 📊 BẢNG TIẾN ĐỘ
+
+| STT | Công việc | Mô tả chi tiết | Người thực hiện | Trạng thái |
+|-----|----------|---------------|----------------|-----------|
+| 1 | Thiết kế database | Tạo bảng users, courses, lessons, quiz | Thảo | ✅ Hoàn thành |
+| 2 | Xây dựng Auth | Đăng ký, đăng nhập, session | Thảo | ✅ Hoàn thành |
+| 3 | Routing hệ thống | Điều hướng trang bằng index.php | Thảo | ✅ Hoàn thành |
+| 4 | Trang chủ | Hiển thị khóa học nổi bật | Thảo | ✅ Hoàn thành |
+| 5 | Danh sách khóa học | Hiển thị tất cả khóa học | Thảo | ✅ Hoàn thành |
+| 6 | Phân loại khóa học | Free / Paid | Thảo | ✅ Hoàn thành |
+| 7 | Trang bài học | Hiển thị nội dung lesson | Thảo | ✅ Hoàn thành |
+| 8 | Bảo vệ nội dung | Chặn khóa học chưa mua | Thảo | ✅ Hoàn thành |
+| 9 | Quiz | Làm bài trắc nghiệm | Thảo | ✅ Hoàn thành |
+| 10 | Kết quả | Hiển thị điểm | Thảo | ✅ Hoàn thành |
+| 11 | Progress | Tính % hoàn thành | Thảo | ✅ Hoàn thành |
+| 12 | Admin Dashboard | Thống kê | Thảo | ✅ Hoàn thành |
+| 13 | CRUD Course | Thêm / sửa / xóa | Thảo | ✅ Hoàn thành |
+| 14 | CRUD Lesson | Quản lý bài học | Thảo | ✅ Hoàn thành |
+| 15 | CRUD User | Quản lý user | Thảo | ✅ Hoàn thành |
+| 16 | UI/UX | Cải thiện giao diện | Thảo | 🔄 Đang phát triển |
+
+- **Người thực hiện:** Vũ Thị Thảo - 23810310277
+- **Lớp:** D18CNPM2
+- **Môn học:** Lập trình Web nâng cao
 
 ---
-
-*Dự án E-Learning hướng đến trải nghiệm học tập trực tuyến đơn giản, dễ dùng, phù hợp cho sinh viên nghiên cứu và phát triển thêm.*
 
