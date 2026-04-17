@@ -1,4 +1,4 @@
-# 📄 Lesson.md
+# 📄 SRS_LESSON.md
 
 ## Chức năng: Bài học (Lesson Learning)
 
