@@ -39,22 +39,21 @@ Dự án tập trung vào trải nghiệm học tập hiện đại, giao diện
 ---
 ## 📋 Mục lục
 
-📋 Mục lục
-🎯 Mục tiêu hệ thống
-⚙️ Chức năng chính
-👨‍🎓 Người dùng (User)
-🔒 Quản trị viên (Admin)
-🛠 Công nghệ sử dụng
-📁 Cấu trúc thư mục
-🗄 Cơ sở dữ liệu
-⚡ Chức năng nổi bật
-🚀 Hướng dẫn cài đặt
-📄 Danh sách tài liệu SRS
-📊 Bảng tiến độ
----
+📋 MỤC LỤC
+## 📋 Mục lục
 
-## Mục tiêu hệ thống
-
+- [Mục tiêu hệ thống](#muc-tieu-he-thong)
+- [Chức năng chính](#chuc-nang-chinh)
+- [Người dùng (User)](#nguoi-dung-user)
+- [Quản trị viên (Admin)](#quan-tri-vien-admin)
+- [Công nghệ sử dụng](#cong-nghe-su-dung)
+- [Cấu trúc thư mục](#cau-truc-thu-muc)
+- [Cơ sở dữ liệu](#co-so-du-lieu)
+- [Chức năng nổi bật](#chuc-nang-noi-bat)
+- [Hướng dẫn cài đặt](#huong-dan-cai-dat)
+- [Danh sách tài liệu SRS](#danh-sach-tai-lieu-srs)
+- [Bảng tiến độ](#bang-tien-do)
+## 🎯 Mục tiêu hệ thống
 - Xây dựng nền tảng học online cơ bản
 - Áp dụng mô hình MVC vào thực tế
 - Quản lý người dùng, khóa học và nội dung học
@@ -67,9 +66,9 @@ Dự án tập trung vào trải nghiệm học tập hiện đại, giao diện
 ---
 
 
-### Chức năng chính
+## ⚙️ Chức năng chính
 
-#### 👨‍🎓 Người dùng (User)
+### 👨‍🎓 Người dùng (User)
 
 - Đăng ký / Đăng nhập
 - Xem danh sách khóa học
@@ -84,7 +83,7 @@ Dự án tập trung vào trải nghiệm học tập hiện đại, giao diện
 
 ---
 
-#### 🔒 Quản trị viên (Admin)
+### 🔒 Quản trị viên (Admin)
 
 - Dashboard (thống kê)
 - Quản lý khóa học (CRUD)
@@ -93,17 +92,7 @@ Dự án tập trung vào trải nghiệm học tập hiện đại, giao diện
 
 ---
 
-## Công nghệ sử dụng
-
-| Thành phần | Công nghệ |
-|-----------|----------|
-| Backend | PHP thuần (MVC) |
-| Database | MariaDB (XAMPP) |
-| Frontend | HTML, CSS, Bootstrap |
-| Script | JavaScript |
-| Server | Apache |
-
-### 1.5. 🛠 Công nghệ sử dụng
+## 🛠 Công nghệ sử dụng
 
 | Thành phần     | Công nghệ             | Lý do lựa chọn                                |
 | -------------- | --------------------- | --------------------------------------------- |
