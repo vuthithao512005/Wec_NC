@@ -39,22 +39,20 @@ Dự án tập trung vào trải nghiệm học tập hiện đại, giao diện
 ---
 ## 📋 Mục lục
 
-📋 MỤC LỤC
-## 📋 Mục lục
+- [🎯 Mục tiêu hệ thống](#muc-tieu)
+- [⚙️ Chức năng chính](#chuc-nang-chinh)
+- [👨‍🎓 Người dùng (User)](#user)
+- [🔒 Quản trị viên (Admin)](#admin)
+- [🛠 Công nghệ sử dụng](#cong-nghe)
+- [📁 Cấu trúc thư mục](#cau-truc)
+- [🗄 Cơ sở dữ liệu](#co-so-du-lieu)
+- [⚡ Chức năng nổi bật](#chuc-nang-noi-bat)
+- [🚀 Hướng dẫn cài đặt](#cai-dat)
+- [📄 Danh sách tài liệu SRS](#srs)
+- [📊 Bảng tiến độ](#tien-do)
 
-- [Mục tiêu hệ thống](#muc-tieu-he-thong)
-- [Chức năng chính](#chuc-nang-chinh)
-- [Người dùng (User)](#nguoi-dung-user)
-- [Quản trị viên (Admin)](#quan-tri-vien-admin)
-- [Công nghệ sử dụng](#cong-nghe-su-dung)
-- [Cấu trúc thư mục](#cau-truc-thu-muc)
-- [Cơ sở dữ liệu](#co-so-du-lieu)
-- [Chức năng nổi bật](#chuc-nang-noi-bat)
-- [Hướng dẫn cài đặt](#huong-dan-cai-dat)
-- [Danh sách tài liệu SRS](#danh-sach-tai-lieu-srs)
-- [Bảng tiến độ](#bang-tien-do)
-## 🎯 Mục tiêu hệ thống
-- Xây dựng nền tảng học online cơ bản
+## <a id="muc-tieu"></a> 🎯 Mục tiêu hệ thống
+
 - Áp dụng mô hình MVC vào thực tế
 - Quản lý người dùng, khóa học và nội dung học
 - Phân quyền rõ ràng giữa **Admin** và **User**
@@ -66,9 +64,9 @@ Dự án tập trung vào trải nghiệm học tập hiện đại, giao diện
 ---
 
 
-## ⚙️ Chức năng chính
+## <a id="chuc-nang-chinh"></a> ⚙️ Chức năng chính
 
-### 👨‍🎓 Người dùng (User)
+### <a id="user"></a> 👨‍🎓 Người dùng (User)
 
 - Đăng ký / Đăng nhập
 - Xem danh sách khóa học
@@ -83,7 +81,7 @@ Dự án tập trung vào trải nghiệm học tập hiện đại, giao diện
 
 ---
 
-### 🔒 Quản trị viên (Admin)
+### <a id="admin"></a> 🔒 Quản trị viên (Admin)
 
 - Dashboard (thống kê)
 - Quản lý khóa học (CRUD)
@@ -92,7 +90,7 @@ Dự án tập trung vào trải nghiệm học tập hiện đại, giao diện
 
 ---
 
-## 🛠 Công nghệ sử dụng
+## <a id="cong-nghe"></a> 🛠 Công nghệ sử dụng
 
 | Thành phần     | Công nghệ             | Lý do lựa chọn                                |
 | -------------- | --------------------- | --------------------------------------------- |
@@ -104,7 +102,7 @@ Dự án tập trung vào trải nghiệm học tập hiện đại, giao diện
 | **Icon**       | FontAwesome           | UI đẹp hơn                                    |
 ---
 
-## 📁 Cấu trúc thư mục
+## <a id="cau-truc"></a> 📁 Cấu trúc thư mục
 
 ```
 E-Learning/
@@ -151,7 +149,7 @@ E-Learning/
 ```
 
 ---
-## 🗄 Cơ sở dữ liệu
+## <a id="co-so-du-lieu"></a> 🗄 Cơ sở dữ liệu
 
 **Database**: `elearning`
 
@@ -166,7 +164,7 @@ E-Learning/
 
 ---
 
-## ⚡ Chức năng nổi bật
+## <a id="chuc-nang-noi-bat"></a> ⚡ Chức năng nổi bật
 
 ### 👨‍🎓 Người học (User)
 
@@ -203,7 +201,7 @@ E-Learning/
 
 ---
 
-## 🚀 Hướng dẫn cài đặt
+## <a id="cai-dat"></a> 🚀 Hướng dẫn cài đặt
 
 B1. Copy project vào:
 
@@ -237,7 +235,7 @@ http://localhost/E-Learning/index.php?page=admin
 
 ---
 
-## 📄 DANH SÁCH TÀI LIỆU SRS
+## <a id="srs"></a> 📄 Danh sách tài liệu SRS
 
 | STT | Tên tài liệu | Nội dung |
 |-----|------------|---------|
@@ -252,7 +250,7 @@ http://localhost/E-Learning/index.php?page=admin
 
 --
 
-## 📊 BẢNG TIẾN ĐỘ
+## <a id="tien-do"></a> 📊 Bảng tiến độ
 
 | STT | Công việc | Mô tả chi tiết | Người thực hiện | Trạng thái |
 |-----|----------|---------------|----------------|-----------|
