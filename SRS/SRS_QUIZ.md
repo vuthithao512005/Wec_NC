@@ -1,56 +1,72 @@
 # 📄 SRS_QUIZ.md
 
-## Chức năng: Quiz (Trắc nghiệm)
+## Chức năng: Làm bài Quiz
 
 **Mã chức năng:** QUIZ-01  
-**Trạng thái:** Completed  
+**Trạng thái:** Hoàn thành  
 **Người soạn thảo:** Thảo  
 **Vai trò:** Developer  
 
 ---
 
 ## 1. Mô tả
-Cho phép người dùng làm bài trắc nghiệm.
+
+Cho phép user làm bài trắc nghiệm.
 
 ---
 
 ## 2. Workflow
 
-| Bước | Hành động |
-|------|----------|
-| 1 | Mở quiz |
-| 2 | Chọn đáp án |
-| 3 | Submit |
-| 4 | Xem điểm |
+| Bước | Action | Response |
+|------|--------|----------|
+| 1 | Vào quiz | Hiển thị câu hỏi |
+| 2 | Chọn đáp án | Lưu tạm |
+| 3 | Submit | Tính điểm |
 
 ---
 
-## 3. Database
+## 3. Data
+
+### Input
+
+| Field | Type |
+|------|------|
+| question_id | int |
+| answer | string |
+
+---
+
+### DB (`quiz`)
 
 | Field | Mô tả |
 |------|------|
-| question | Câu hỏi |
-| option_a | A |
-| option_b | B |
-| option_c | C |
-| correct | Đáp án |
+| id | ID |
+| question | câu hỏi |
+| correct | đáp án |
 
 ---
 
-## 4. Logic
+## 4. Ràng buộc
 
-- So sánh đáp án
-- Tính điểm
+- Phải chọn đáp án
 
 ---
 
-## 5. UI
+## 5. Edge Cases
 
-- Radio chọn đáp án
+| Case | Xử lý |
+|------|------|
+| Không chọn | Không submit |
+
+---
+
+## 6. UI
+
+- Radio button
 - Nút submit
 
 ---
 
-## 6. Acceptance
+## 7. Acceptance
 
-- Tính điểm chính xác
+- Tính điểm đúng
