@@ -51,6 +51,7 @@ Dự án tập trung vào trải nghiệm học tập hiện đại, giao diện
 - [📄 Danh sách tài liệu SRS](#srs)
 - [📊 Bảng tiến độ](#tien-do)
 
+---
 ## <a id="muc-tieu"></a> 🎯 Mục tiêu hệ thống
 
 - Áp dụng mô hình MVC vào thực tế
@@ -62,7 +63,6 @@ Dự án tập trung vào trải nghiệm học tập hiện đại, giao diện
 - Bảo vệ nội dung học (chỉ người đã mua mới được xem)
 
 ---
-
 
 ## <a id="chuc-nang-chinh"></a> ⚙️ Chức năng chính
 
@@ -78,8 +78,6 @@ Dự án tập trung vào trải nghiệm học tập hiện đại, giao diện
 - Làm bài Quiz
 - Xem kết quả
 - Theo dõi tiến độ học (%)
-
----
 
 ### <a id="admin"></a> 🔒 Quản trị viên (Admin)
 
