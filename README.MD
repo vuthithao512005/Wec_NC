@@ -208,16 +208,21 @@ http://localhost/E-Learning/index.php?page=admin
 
 ## <a id="srs"></a> 📄 Danh sách tài liệu SRS
 
-| STT | Tên tài liệu | Nội dung |
+## 📄 Danh sách tài liệu SRS
+
+| STT | Tài liệu | Nội dung |
 |-----|------------|---------|
-| 1 | SRS_AUTH.md | Đăng ký, đăng nhập |
-| 2 | SRS_COURSE.md | Quản lý khóa học |
-| 3 | SRS_LESSON.md | Quản lý bài học |
-| 4 | SRS_QUIZ.md | Hệ thống quiz |
-| 5 | SRS_RESULT.md | Kết quả bài làm |
-| 6 | SRS_PROGRESS.md | Tiến độ học |
-| 7 | SRS_ADMIN.md | Trang admin |
-| 8 | SRS_PAYMENT.md | Mua khóa học |
+| 1 | 📄 [SRS_LOGIN.md](./SRS/SRS_LOGIN.md) | Đăng nhập hệ thống |
+| 2 | 📄 [SRS_REGISTER.md](./SRS/SRS_REGISTER.md) | Đăng ký tài khoản |
+| 3 | 📄 [SRS_HOME.md](./SRS/SRS_HOME.md) | Trang chủ |
+| 4 | 📄 [SRS_COURSE.md](./SRS/SRS_COURSE.md) | Danh sách khóa học |
+| 5 | 📄 [SRS_LESSON.md](./SRS/SRS_LESSON.md) | Bài học |
+| 6 | 📄 [SRS_QUIZ.md](./SRS/SRS_QUIZ.md) | Hệ thống quiz |
+| 7 | 📄 [SRS_RESULT.md](./SRS/SRS_RESULT.md) | Kết quả bài làm |
+| 8 | 📄 [SRS_PROGRESS.md](./SRS/SRS_PROGRESS.md) | Tiến độ học |
+| 9 | 📄 [SRS_PAYMENT.md](./SRS/SRS_PAYMENT.md) | Mua khóa học |
+| 10 | 📄 [SRS_CART.md](./SRS/SRS_CART.md) | Giỏ hàng |
+| 11 | 📄 [SRS_ADMIN_DASHBOARD.md](./SRS/SRS_ADMIN_DASHBOARD.md) | Dashboard admin |
 
 ---
 
