@@ -208,8 +208,6 @@ http://localhost/E-Learning/index.php?page=admin
 
 ## <a id="srs"></a> 📄 Danh sách tài liệu SRS
 
-## 📄 Danh sách tài liệu SRS
-
 | STT | Tài liệu | Nội dung |
 |-----|------------|---------|
 | 1 | 📄 [SRS_LOGIN.md](./SRS/SRS_LOGIN.md) | Đăng nhập hệ thống |
