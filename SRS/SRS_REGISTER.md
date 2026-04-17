@@ -3,7 +3,7 @@
 ## Chức năng: Đăng ký tài khoản (User Authentication - Register)
 
 **Mã chức năng:** AUTH-02  
-**Trạng thái:** Completed  
+**Trạng thái:** Đã hoàn thành
 **Người soạn thảo:** Thảo  
 **Vai trò:** Developer  
 
