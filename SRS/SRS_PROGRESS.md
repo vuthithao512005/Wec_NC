@@ -1,9 +1,9 @@
-# 📄 Progress.md
+# 📄 SRS_PROGRESS.md
 
 ## Chức năng: Tiến độ học (Learning Progress)
 
 **Mã chức năng:** PROGRESS-01  
-**Trạng thái:** Completed  
+**Trạng thái:** Hoàn thành
 **Người soạn thảo:** Thảo  
 **Vai trò:** Developer  
 
