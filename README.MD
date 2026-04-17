@@ -257,18 +257,18 @@ http://localhost/E-Learning/index.php?page=admin
 | 1 | Thiết kế database | Tạo bảng users, courses, lessons, quiz | Thảo | ✅ Hoàn thành |
 | 2 | Xây dựng Auth | Đăng ký, đăng nhập, session | Thảo | ✅ Hoàn thành |
 | 3 | Routing hệ thống | Điều hướng trang bằng index.php | Thảo | ✅ Hoàn thành |
-| 4 | Trang chủ | Hiển thị khóa học nổi bật | Thảo | ✅ Hoàn thành |
+| 4 | Trang chủ | Hiển thị khóa học nổi bật, free và mất phí | Thảo | 🔄 Đang phát triển|
 | 5 | Danh sách khóa học | Hiển thị tất cả khóa học | Thảo | ✅ Hoàn thành |
 | 6 | Phân loại khóa học | Free / Paid | Thảo | ✅ Hoàn thành |
-| 7 | Trang bài học | Hiển thị nội dung lesson | Thảo | ✅ Hoàn thành |
+| 7 | Trang bài học | Hiển thị nội dung lesson | Thảo | 🔄 Đang phát triển |
 | 8 | Bảo vệ nội dung | Chặn khóa học chưa mua | Thảo | ✅ Hoàn thành |
 | 9 | Quiz | Làm bài trắc nghiệm | Thảo | ✅ Hoàn thành |
 | 10 | Kết quả | Hiển thị điểm | Thảo | ✅ Hoàn thành |
 | 11 | Progress | Tính % hoàn thành | Thảo | ✅ Hoàn thành |
-| 12 | Admin Dashboard | Thống kê | Thảo | ✅ Hoàn thành |
+| 12 | Admin Dashboard | Thống kê | Thảo | 🔄 Đang phát triển |
 | 13 | CRUD Course | Thêm / sửa / xóa | Thảo | ✅ Hoàn thành |
-| 14 | CRUD Lesson | Quản lý bài học | Thảo | ✅ Hoàn thành |
-| 15 | CRUD User | Quản lý user | Thảo | ✅ Hoàn thành |
+| 14 | CRUD Lesson | Quản lý bài học | Thảo | 🔄 Đang phát triển |
+| 15 | CRUD User | Quản lý user | Thảo | 🔄 Đang phát triển |
 | 16 | UI/UX | Cải thiện giao diện | Thảo | 🔄 Đang phát triển |
 
 - **Người thực hiện:** Vũ Thị Thảo - 23810310277
