@@ -1,85 +1,89 @@
 # 📄 SRS_COURSE.md
 
-## Chức năng: Quản lý & hiển thị khóa học (Course Management)
+## Chức năng: Quản lý khóa học (Course Management)
 
 **Mã chức năng:** COURSE-01  
-**Trạng thái:** Completed  
+**Trạng thái:** Hoàn thành  
 **Người soạn thảo:** Thảo  
 **Vai trò:** Developer  
 
 ---
 
-## 1. Mô tả tổng quan
-Chức năng cho phép:
-- Người dùng xem danh sách khóa học
-- Phân loại khóa học miễn phí và trả phí
-- Quản trị viên thực hiện CRUD khóa học
+## 1. Mô tả tổng quan (Description)
+
+Chức năng quản lý khóa học cho phép admin tạo, chỉnh sửa và xóa khóa học.
+
+Hệ thống đảm bảo:
+- Hiển thị danh sách khóa học
+- Phân loại khóa học (Free / Paid)
+- Quản lý thông tin khóa học
 
 ---
 
-## 2. Luồng nghiệp vụ
+## 2. Luồng nghiệp vụ (User Workflow)
 
-### 👨‍🎓 User
-
-| Bước | Hành động | Phản hồi hệ thống |
-|------|----------|------------------|
-| 1 | Truy cập `/courses` | Hiển thị danh sách khóa học |
-| 2 | Xem chi tiết | Hiển thị thông tin |
-| 3 | Click học | Chuyển lesson |
-
----
-
-### 🔒 Admin
-
-| Bước | Hành động |
-|------|----------|
-| 1 | Thêm khóa học |
-| 2 | Sửa |
-| 3 | Xóa |
+| Bước | Hành động admin        | Phản hồi hệ thống        |
+|------|------------------------|--------------------------|
+| 1    | Truy cập `/admin`      | Hiển thị dashboard       |
+| 2    | Vào quản lý khóa học   | Hiển thị danh sách       |
+| 3    | Thêm / sửa / xóa       | Gửi request              |
+| 4    | Hệ thống xử lý         | Cập nhật database        |
+| 5    | Thành công             | Hiển thị thông báo       |
 
 ---
 
-## 3. Yêu cầu dữ liệu
+## 3. Yêu cầu dữ liệu (Data Requirements)
 
-### Input
+### 3.1 Input
 
-| Trường | Kiểu | Bắt buộc |
-|--------|------|---------|
-| title | string | ✔ |
-| description | text | ✔ |
-| price | int | ✔ |
-| image | string | ✔ |
-
----
-
-## 4. Database
-
-| Field | Mô tả |
-|------|------|
-| id | ID |
-| title | Tên |
-| description | Mô tả |
-| price | Giá |
-| image | Ảnh |
+| Trường      | Kiểu   | Bắt buộc | Mô tả        |
+|-------------|--------|----------|--------------|
+| title       | string | ✔        | Tên khóa học |
+| description | text   | ✔        | Mô tả        |
+| price       | int    | ✔        | Giá          |
+| image       | string | ✔        | Hình ảnh     |
 
 ---
 
-## 5. Logic
+### 3.2 Database (`courses`)
 
-- price = 0 → Free
-- price > 0 → Paid
-
----
-
-## 6. UI/UX
-
-- Card khóa học
-- Hiển thị ảnh + giá
-- Nút học / mua
+| Trường      | Kiểu   | Mô tả        |
+|-------------|--------|--------------|
+| id          | int    | ID           |
+| title       | string | Tên khóa học |
+| description | text   | Mô tả        |
+| price       | int    | Giá          |
+| image       | string | Hình ảnh     |
 
 ---
 
-## 7. Acceptance Criteria
+## 4. Ràng buộc kỹ thuật & Bảo mật
 
-- Hiển thị đúng danh sách
-- Phân loại đúng Free/Paid
+- Chỉ admin được phép thao tác
+- Validate dữ liệu đầu vào
+- Không cho nhập giá âm
+
+---
+
+## 5. Xử lý lỗi (Edge Cases)
+
+| Trường hợp | Xử lý |
+|-----------|------|
+| Thiếu dữ liệu | Báo lỗi |
+| Giá âm | Không cho lưu |
+| ID không tồn tại | Báo lỗi |
+
+---
+
+## 6. Giao diện (UI/UX)
+
+- Danh sách khóa học dạng table
+- Form thêm / sửa
+- Nút CRUD
+
+---
+
+## 7. Điều kiện thành công
+
+- CRUD hoạt động đúng
+- Hiển thị chính xác dữ liệu
