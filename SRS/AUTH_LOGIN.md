@@ -3,7 +3,7 @@
 ## Chức năng: Đăng nhập hệ thống (User Authentication - Login)
 
 **Mã chức năng:** AUTH-01  
-**Trạng thái:** Completed  
+**Trạng thái:** Hoàn thành  
 **Người soạn thảo:** Thảo  
 **Vai trò:** Developer  
 
