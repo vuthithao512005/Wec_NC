@@ -1,42 +1,58 @@
 # 📄 SRS_ADMIN.md
 
-## Chức năng: Admin Panel
+## Chức năng: Dashboard Admin
 
 **Mã chức năng:** ADMIN-01  
-**Trạng thái:** Đang thực hiện
+**Trạng thái:** Hoàn thành  
 **Người soạn thảo:** Thảo  
 **Vai trò:** Developer  
 
 ---
 
 ## 1. Mô tả
+
 Trang quản trị hệ thống.
 
 ---
 
-## 2. Chức năng
+## 2. Workflow
 
-- Dashboard
-- CRUD Course
-- CRUD Lesson
-- CRUD User
-
----
-
-## 3. Bảo mật
-
-- checkAdmin()
-- Phân quyền role
+| Bước | Action | Response |
+|------|--------|----------|
+| 1 | Login admin | Vào dashboard |
+| 2 | Quản lý | CRUD |
 
 ---
 
-## 4. UI
+## 3. Data
+
+- users
+- courses
+- lessons
+
+---
+
+## 4. Ràng buộc
+
+- Chỉ admin
+
+---
+
+## 5. Edge Cases
+
+| Case | Xử lý |
+|------|------|
+| User thường | Không truy cập |
+
+---
+
+## 6. UI
 
 - Sidebar
-- Header admin
+- Dashboard
 
 ---
 
-## 5. Acceptance
+## 7. Acceptance
 
-- Chỉ admin truy cập được
+- Phân quyền đúng
