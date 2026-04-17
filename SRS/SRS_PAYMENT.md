@@ -1,45 +1,58 @@
 # 📄 SRS_PAYMENT.md
 
-## Chức năng: Mua khóa học (Payment Simulation)
+## Chức năng: Mua khóa học
 
-**Mã chức năng:** PAY-01  
-**Trạng thái:** Completed  
+**Mã chức năng:** PAYMENT-01  
+**Trạng thái:** Đang phát triển  
 **Người soạn thảo:** Thảo  
 **Vai trò:** Developer  
 
 ---
 
 ## 1. Mô tả
-Cho phép user mua khóa học trả phí.
+
+Cho phép user mua khóa học.
 
 ---
 
 ## 2. Workflow
 
-| Bước | Hành động |
-|------|----------|
-| 1 | Click mua |
-| 2 | Thêm giỏ |
-| 3 | Thanh toán |
-| 4 | Unlock |
+| Bước | Action | Response |
+|------|--------|----------|
+| 1 | Click mua | Thêm giỏ |
+| 2 | Thanh toán | Xử lý |
 
 ---
 
-## 3. Database
+## 3. Data
 
 | Field | Mô tả |
 |------|------|
-| user_id | User |
-| course_id | Course |
+| user_id | user |
+| course_id | khóa |
 
 ---
 
-## 4. Logic
+## 4. Ràng buộc
 
-- Đã mua → học được
+- Phải login
 
 ---
 
-## 5. Acceptance
+## 5. Edge Cases
 
-- Unlock đúng khóa học
+| Case | Xử lý |
+|------|------|
+| Chưa login | Redirect |
+
+---
+
+## 6. UI
+
+- Nút mua
+
+---
+
+## 7. Acceptance
+
+- Mua thành công
