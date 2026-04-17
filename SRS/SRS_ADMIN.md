@@ -1,4 +1,4 @@
-# 📄 Admin.md
+# 📄 SRS_ADMIN.md
 
 ## Chức năng: Admin Panel
 
