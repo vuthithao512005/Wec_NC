@@ -1,4 +1,4 @@
-# 📄 Quiz.md
+# 📄 SRS_QUIZ.md
 
 ## Chức năng: Quiz (Trắc nghiệm)
 
