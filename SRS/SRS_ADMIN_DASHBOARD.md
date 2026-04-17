@@ -3,7 +3,7 @@
 ## Chức năng: Dashboard quản trị (Admin Dashboard)
 
 **Mã chức năng:** ADMIN-01  
-**Trạng thái:** Chưa hoàn thành
+**Trạng thái:** Chưa hoàn thành  
 **Người soạn thảo:** Thảo  
 **Vai trò:** Developer  
 
