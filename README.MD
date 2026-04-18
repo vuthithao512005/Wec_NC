@@ -87,7 +87,10 @@ E-Learning/
 │   ├── CourseController.php
 │   ├── LessonController.php
 │   ├── QuizController.php
-│   └── AdminController.php
+│   ├── AdminController.php
+│   ├── ProgressController.php
+│   ├── ResultController.php
+│   └── CartController.php
 │
 ├── models/
 │   ├── User.php
@@ -95,8 +98,12 @@ E-Learning/
 │   ├── Lesson.php
 │   ├── Quiz.php
 │   ├── Result.php
+│   ├── Cart.php
+│   ├── Category.php
 │   └── Progress.php
 │
+├── Uploads/
+|
 ├── views/
 │   ├── layout/
 │   │   ├── user_layout.php
@@ -106,8 +113,11 @@ E-Learning/
 │   │   ├── home.php
 │   │   ├── courses.php
 │   │   ├── lesson.php
+|   |   ├── lessons.php
 │   │   ├── quiz.php
 │   │   ├── result.php
+|   |   ├── cart.php
+|   |   ├── history.php
 │   │   └── progress.php
 │   │
 │   └── admin/
