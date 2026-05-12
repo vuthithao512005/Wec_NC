@@ -183,7 +183,6 @@ Dưới đây là cấu trúc các bảng chi tiết trong cơ sở dữ liệu 
 - Luồng thanh toán chặt chẽ: Tự động phát hiện nếu học viên đã sở hữu khóa học để ngăn chặn việc mua trùng lặp.
 - Cơ chế mở khóa nội dung (Content Protection): Code backend kiểm tra đối chiếu bảng user_courses trước khi render bài giảng, đảm bảo chỉ người đã thanh toán mới có thể xem video/tài liệu.
 - Hệ thống thông báo toàn cục (Global Toast UI): Mọi hành động như (Thêm giỏ hàng thành công, Lỗi mua trùng, Thanh toán hoàn tất) đều trả về một popup thông báo đẹp mắt ở góc màn hình, tự động biến mất sau 4 giây.
-- Phát hiện người dùng gian lận
 
 ---
 
