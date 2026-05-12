@@ -183,6 +183,7 @@ Dưới đây là cấu trúc các bảng chi tiết trong cơ sở dữ liệu 
 - Luồng thanh toán chặt chẽ: Tự động phát hiện nếu học viên đã sở hữu khóa học để ngăn chặn việc mua trùng lặp.
 - Cơ chế mở khóa nội dung (Content Protection): Code backend kiểm tra đối chiếu bảng user_courses trước khi render bài giảng, đảm bảo chỉ người đã thanh toán mới có thể xem video/tài liệu.
 - Hệ thống thông báo toàn cục (Global Toast UI): Mọi hành động như (Thêm giỏ hàng thành công, Lỗi mua trùng, Thanh toán hoàn tất) đều trả về một popup thông báo đẹp mắt ở góc màn hình, tự động biến mất sau 4 giây.
+- Phát hiện người dùng gian lận
 
 ---
 
@@ -263,10 +264,68 @@ http://localhost/E-Learning/index.php?page=admin
 | 15 | CRUD User | Quản lý user | Thảo | ✅ Hoàn thành |
 | 16 | UI/UX | Cải thiện giao diện | Thảo | ✅ Hoàn thành |
 
+--- Giao diện Demo
+1. Trang đăng ký tài khoản
+<img width="689" height="519" alt="image" src="https://github.com/user-attachments/assets/075cfe7c-0550-48e0-864f-cb6bed0f89fc" />
+
+2. Trang đăng nhập
+
+<img width="684" height="573" alt="image" src="https://github.com/user-attachments/assets/60437dec-e221-4f9e-9441-79823ae184db" />
+3. Trang chủ
+
+<img width="547" height="314" alt="image" src="https://github.com/user-attachments/assets/06e5ce25-47a6-4429-b9a9-bb1a2fe0e45f" />
+
+4. Khóa học
+<img width="612" height="349" alt="image" src="https://github.com/user-attachments/assets/ac02ede0-507c-4f7e-bf1f-2d4441939e59" />
+
+5. Chi tiết khóa học
+<img width="512" height="280" alt="image" src="https://github.com/user-attachments/assets/f847f2fc-156d-4c81-8f1c-edde2f56d4a4" />
+
+6. Giỏ hàng
+<img width="573" height="313" alt="image" src="https://github.com/user-attachments/assets/e8b820c1-06fa-4948-9cce-e4e51b092406" />
+
+7. Bài học
+<img width="593" height="402" alt="image" src="https://github.com/user-attachments/assets/78939872-9cff-46fe-9022-1d07e84336c9" />
+
+8. Bài kiểm tra
+
+<img width="627" height="422" alt="image" src="https://github.com/user-attachments/assets/02a462a8-9422-4989-b267-4e71b5399834" />
+
+9. Kết quả bài kiểm tra
+
+<img width="627" height="406" alt="image" src="https://github.com/user-attachments/assets/cff1d81c-51d8-4072-ad03-a1533c2f31c6" />
+
+10. Quản lý tiến độ
+
+<img width="566" height="394" alt="image" src="https://github.com/user-attachments/assets/d8b52297-5773-4f7e-8bc0-26e48777d3ce" />
+
+ADMIN
+11. Trang Dashbroad
+<img width="554" height="328" alt="image" src="https://github.com/user-attachments/assets/464d1fe4-51ff-4b16-a378-e27b7f45be22" />
+
+12. Quản lý danh mục khóa học 
+<img width="566" height="334" alt="image" src="https://github.com/user-attachments/assets/47417304-dc9e-4767-b4bb-f40a012e8d19" />
+
+13. Quản lý khóa học
+<img width="587" height="337" alt="image" src="https://github.com/user-attachments/assets/61a3aaa1-eb82-45b3-9bf8-d05c5f5e09f7" />
+
+14. Quản lý bài học
+<img width="594" height="322" alt="image" src="https://github.com/user-attachments/assets/cf729bbc-6d24-474f-b17a-05cd30643ffa" />
+
+15. Quản lý ngân hàng Quiz
+
+<img width="601" height="356" alt="image" src="https://github.com/user-attachments/assets/26f2b71c-ee43-46d0-b86e-7e09b737aa72" />
+
+16. Quản lý người dùng
+<img width="603" height="342" alt="image" src="https://github.com/user-attachments/assets/587e3b05-d43e-481c-95a7-1befccf720e1" />
+
+17. Quản lý đơn hàng
+<img width="596" height="352" alt="image" src="https://github.com/user-attachments/assets/90cfe31d-05c7-4fd8-80da-0123dc3f33ee" />
+
 ---
 ## <a id="demo"></a> Video demo
 
-https://youtu.be/ZUp3FiaAjv8?si=Z6jL7JueZ_yZVteg
+[https://youtu.be/ZUp3FiaAjv8?si=Z6jL7JueZ_yZVteg](https://youtu.be/C0N_jc1-m84?si=7MD2cQYNfPvmg1Os)
 
 
 
@@ -275,4 +334,3 @@ https://youtu.be/ZUp3FiaAjv8?si=Z6jL7JueZ_yZVteg
 - **Môn học:** Lập trình Web nâng cao
 
 ---
-
