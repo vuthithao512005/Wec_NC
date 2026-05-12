@@ -34,7 +34,7 @@ Dự án tập trung vào trải nghiệm học tập hiện đại, giao diện
 - [🚀 Hướng dẫn cài đặt](#cai-dat)
 - [📄 Danh sách tài liệu SRS](#srs)
 - [📊 Bảng tiến độ](#tien-do)
-
+- [Video demo](#demo)
 ---
 ## <a id="muc-tieu"></a> 🎯 Mục tiêu hệ thống
 
@@ -264,13 +264,9 @@ http://localhost/E-Learning/index.php?page=admin
 | 16 | UI/UX | Cải thiện giao diện | Thảo | ✅ Hoàn thành |
 
 ---
-Giao diện demo
+## <a id="demo"></a> Video demo
 
-Hình 3.1: Giao diện trang Đăng ký tài khoản
-Trang Đăng nhập (Login):
--	Chức năng: Xác thực người dùng đã có tài khoản.
--	Chi tiết UI: Form nhập Email và Mật khẩu. Có thêm tùy chọn "Ghi nhớ đăng nhập" (Remember me).
--	Xử lý Logic: Hệ thống so khớp email và mật khẩu với dữ liệu trong SQL. Nếu khớp, một Session sẽ được khởi tạo để duy trì trạng thái đăng nhập suốt phiên làm việc.
+https://youtu.be/ZUp3FiaAjv8?si=Z6jL7JueZ_yZVteg
 
 
 
