@@ -94,6 +94,10 @@ E-Learning/
 │   ├── ResultController.php
 │   └── CartController.php
 │
+├── machine_learning/
+│   ├── api_ai.py
+│   ├── kmean_anomaly.ipynb
+|
 ├── models/
 │   ├── User.php
 │   ├── Course.php
