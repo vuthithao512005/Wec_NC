@@ -12,6 +12,15 @@ Dự án tập trung vào trải nghiệm học tập hiện đại, giao diện
 | 1 | Vũ Thị Thảo | 23810310277 |
 
 ---
+### 🔐 Tài khoản Demo (Test nội bộ)
+Để thuận tiện cho việc kiểm thử hệ thống, giảng viên có thể sử dụng các tài khoản có sẵn sau:
+- **Tài khoản Admin:**
+  - Email: `admin@gmail.com`
+  - Mật khẩu: `123456`
+- **Tài khoản User (Học viên):**
+  - Email: `user@gmail.com`
+  - Mật khẩu: `123456`
+---
 ## 📋 Mục lục
 
 - [🎯 Mục tiêu hệ thống](#muc-tieu)
@@ -253,6 +262,17 @@ http://localhost/E-Learning/index.php?page=admin
 | 14 | CRUD Lesson | Quản lý bài học | Thảo | ✅ Hoàn thành |
 | 15 | CRUD User | Quản lý user | Thảo | ✅ Hoàn thành |
 | 16 | UI/UX | Cải thiện giao diện | Thảo | ✅ Hoàn thành |
+
+---
+Giao diện demo
+
+Hình 3.1: Giao diện trang Đăng ký tài khoản
+Trang Đăng nhập (Login):
+-	Chức năng: Xác thực người dùng đã có tài khoản.
+-	Chi tiết UI: Form nhập Email và Mật khẩu. Có thêm tùy chọn "Ghi nhớ đăng nhập" (Remember me).
+-	Xử lý Logic: Hệ thống so khớp email và mật khẩu với dữ liệu trong SQL. Nếu khớp, một Session sẽ được khởi tạo để duy trì trạng thái đăng nhập suốt phiên làm việc.
+
+
 
 - **Người thực hiện:** Vũ Thị Thảo - 23810310277
 - **Lớp:** D18CNPM2
